@@ -2,6 +2,6 @@
 div.container
     TbHeader
     NuxtPage 
-    TbFooter
+TbFooter
 </template>
 <script></script>
