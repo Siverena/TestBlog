@@ -1,0 +1,43 @@
+.tb-image-block {
+    &__image {
+        border-radius: 2px 220px 2px 2px;
+        width: 100%;
+        height: 754px;
+        overflow: hidden;
+        margin-bottom: 20px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__caption {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        color: $gray;
+    }
+}
+@media (max-width: grid-width($desktop)) {
+    .tb-image-block {
+        &__image {
+            height: 570px;
+        }
+    }
+}
+@media (max-width: grid-width($laptop)) {
+    .tb-image-block {
+        &__image {
+            height: 426px;
+        }
+    }
+}
+@media (max-width: grid-width($tablet)) {
+    .tb-image-block {
+        &__image {
+            height: 196px;
+        }
+    }
+}

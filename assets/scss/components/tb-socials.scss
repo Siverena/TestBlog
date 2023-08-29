@@ -1,0 +1,9 @@
+.tb-socials {
+    &__list {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        column-gap: 20px;
+    }
+}
